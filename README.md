@@ -19,18 +19,16 @@ Referensi menggunakan **Turabian System** dengan catatan kaki (footnote) — buk
 ### Windows (PowerShell)
 
 ```powershell
-git clone https://github.com/<USERNAME>/kti-uin.git "$env:USERPROFILE\.config\opencode\skill\kti-uin"
+git clone https://github.com/Kayy779/kti-uin.git "$env:USERPROFILE\.config\opencode\skills\kti-uin"
 ```
 
 ### Linux / macOS
 
 ```bash
-git clone https://github.com/<USERNAME>/kti-uin.git ~/.config/opencode/skill/kti-uin
+git clone https://github.com/Kayy779/kti-uin.git ~/.config/opencode/skills/kti-uin
 ```
 
-Ganti `<USERNAME>` dengan username GitHub Anda.
-
-Setelah clone, jalankan ulang OpenCode — skill `kti-uin` akan otomatis terdeteksi dan bisa dipanggil:
+Setelah clone, jalankan `/reload` di OpenCode (atau buka ulang sesi) — skill `kti-uin` akan otomatis terdeteksi dan bisa dipanggil:
 
 ```
 @kti-uin tuliskan latar belakang skripsi saya
@@ -39,7 +37,7 @@ Setelah clone, jalankan ulang OpenCode — skill `kti-uin` akan otomatis terdete
 ### Update
 
 ```bash
-cd ~/.config/opencode/skill/kti-uin && git pull
+cd ~/.config/opencode/skills/kti-uin && git pull
 ```
 
 ## Cara Pakai
